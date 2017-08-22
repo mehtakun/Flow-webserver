@@ -1,0 +1,38 @@
+2017-08-22 16:10:14 DEBUG FlowServer:44 - **** Start of the main method ****
+2017-08-22 16:10:14 DEBUG FlowServer:61 - Server started on port 7000
+2017-08-22 16:10:18 DEBUG FlowWorker:36 - **** Start of worker thread ****
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:39 - Start of FlowHttpRequest constructor
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:45 - strFirstLine GET / HTTP/1.1
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:52 - Method GET
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:53 - URI /
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:54 - Version HTTP/1.1
+2017-08-22 16:10:18 DEBUG FlowHttpRequest:55 - Request Headers [Host: localhost:7000, Upgrade-Insecure-Requests: 1, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8, Accept-Language: en-us, Accept-Encoding: gzip, deflate, Connection: keep-alive]
+2017-08-22 16:10:18 DEBUG FlowHttpResponse:45 - Preparing response for - ./src/main/resources/docroot/404.html
+2017-08-22 16:10:18 DEBUG FlowHttpResponse:46 - Response Code - HTTP/1.1 404 Not Found
+2017-08-22 16:10:18 DEBUG FlowHttpResponse:47 - Response Headers - Content-Type: text/html
+2017-08-22 16:10:18 DEBUG FlowHttpResponse:89 - Writing output 
+2017-08-22 16:10:18 DEBUG FlowHttpResponse:97 - Output written
+2017-08-22 16:10:21 DEBUG FlowWorker:36 - **** Start of worker thread ****
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:39 - Start of FlowHttpRequest constructor
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:45 - strFirstLine GET /a.html HTTP/1.1
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:52 - Method GET
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:53 - URI /a.html
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:54 - Version HTTP/1.1
+2017-08-22 16:10:21 DEBUG FlowHttpRequest:55 - Request Headers [Host: localhost:7000, Connection: keep-alive, Upgrade-Insecure-Requests: 1, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8, Referer: http://localhost:7000/, Accept-Language: en-us, Accept-Encoding: gzip, deflate]
+2017-08-22 16:10:21 DEBUG FlowHttpResponse:45 - Preparing response for - ./src/main/resources/docroot/a.html
+2017-08-22 16:10:21 DEBUG FlowHttpResponse:46 - Response Code - HTTP/1.1 200 OK
+2017-08-22 16:10:21 DEBUG FlowHttpResponse:47 - Response Headers - Content-Type: text/html
+2017-08-22 16:10:21 DEBUG FlowHttpResponse:89 - Writing output 
+2017-08-22 16:10:21 DEBUG FlowHttpResponse:97 - Output written
+2017-08-22 16:10:24 DEBUG FlowWorker:36 - **** Start of worker thread ****
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:39 - Start of FlowHttpRequest constructor
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:45 - strFirstLine GET /b.html HTTP/1.1
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:52 - Method GET
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:53 - URI /b.html
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:54 - Version HTTP/1.1
+2017-08-22 16:10:24 DEBUG FlowHttpRequest:55 - Request Headers [Host: localhost:7000, Connection: keep-alive, Upgrade-Insecure-Requests: 1, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8, User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8, Referer: http://localhost:7000/, Accept-Language: en-us, Accept-Encoding: gzip, deflate]
+2017-08-22 16:10:24 DEBUG FlowHttpResponse:45 - Preparing response for - ./src/main/resources/docroot/b.html
+2017-08-22 16:10:24 DEBUG FlowHttpResponse:46 - Response Code - HTTP/1.1 200 OK
+2017-08-22 16:10:24 DEBUG FlowHttpResponse:47 - Response Headers - Content-Type: text/html
+2017-08-22 16:10:24 DEBUG FlowHttpResponse:89 - Writing output 
+2017-08-22 16:10:24 DEBUG FlowHttpResponse:97 - Output written
