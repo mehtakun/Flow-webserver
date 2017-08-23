@@ -43,8 +43,11 @@ a.	This class has all the supported content type strings and will grow as new co
 References -
 
 http://pages.cs.wisc.edu/~dusseau/Classes/CS537-F07/Projects/P2/p2.html
+
 http://www.cs.carleton.edu/faculty/dmusican/cs348/webserver.html
+
 https://www.tutorialspoint.com/http/http_responses.htm
+
 https://stackoverflow.com/questions/3548775/platform-independent-paths-in-java
 
 
