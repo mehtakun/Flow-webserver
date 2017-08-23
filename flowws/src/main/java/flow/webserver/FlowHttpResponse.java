@@ -27,7 +27,7 @@ public class FlowHttpResponse {
 
 	private static Logger logger = Logger.getLogger(FlowHttpResponse.class);
 	final static String STR_CRLF = "\r\n";
-	final static String STR_DOCROOT = "./src/main/resources/docroot";
+	final static String STR_DOCROOT = "."+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"docroot";
 	byte[] arrResponse;
 	String strResponseCode;
 	String strHeaders;
@@ -124,7 +124,7 @@ public class FlowHttpResponse {
 
 	private void setResponseCode () {
 		if (!file.exists() || file.isDirectory()) {
-			file = new File(STR_DOCROOT+"/404.html");
+			file = new File(STR_DOCROOT+File.separator+"404.html");
 			strResponseCode = FlowResponseCodes.STATUS_404;
 		} else {
 			strResponseCode = FlowResponseCodes.STATUS_200;
